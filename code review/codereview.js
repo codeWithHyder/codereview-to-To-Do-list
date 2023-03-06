@@ -130,7 +130,7 @@ checkBox = () => {
  }
 }
 
-// other part1
+// main module part
 class Main {
   constructor(task, index, completed) {
     this.task = task;
@@ -139,7 +139,7 @@ class Main {
   }
 }
 
-// other part2
+// calling data part from  input text filed
 
 const dataCollection = new DataCollection();
 dataCollection.load();
